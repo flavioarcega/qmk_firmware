@@ -1,3 +1,21 @@
+Comando para instalar o qmk e setup:
+```
+pip install qmk
+qmk setup
+```
+
+Comando para compilar o json:
+```
+qmk compile flavioarcega.json
+```
+
+Comando para gravar no teclado:
+```
+qmk flash lily58_rev1_flavioarcega.hex
+```
+
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
